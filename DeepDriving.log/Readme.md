@@ -25,10 +25,10 @@
 ### 升级当前系统
 在安装 DeepDriving 前，我们需要升级一下自己正在使用的 Linux 发行版。如果你和我
 用的一样的环境，那么你可以像我一样输入下面的命令，按照提示操作即可。
-```
-sudo apt-get update
-sudo apt-get upgrade
-```
+> sudo apt-get update
+
+> sudo apt-get upgrade
+
 如果你刚刚安装好你的环境，也许还需要安装 gcc 编译器。如果你和我用的一样的环境，
 那么你可以像我一样输入下面的命令，按照提示操作即可。
 > sudo apt-get install build-essential
@@ -39,31 +39,20 @@ sudo apt-get upgrade
 
 首先我们得为其安装依赖。如果你和我用的一样的环境，
 那么你可以像我一样输入下面的命令，按照提示操作即可。
-```
-sudo apt-get install libplib-dev
-sudo apt-get install libopenal-dev
-sudo apt-get install libalut-dev
-sudo apt-get install libvorbis-dev
-sudo apt-get install libxxf86vm-dev
-sudo apt-get install libxmu-dev
-sudo apt-get install libxi-dev
-sudo apt-get install libxrender-dev
-sudo apt-get install libxrandr-dev
-sudo apt-get install libz-dev
-sudo apt-get install libpng-dev
-```
+> sudo apt-get install libplib-dev libopenal-dev libalut-dev libvorbis-dev libxxf86vm-dev libxmu-dev libxi-dev libxrender-dev libxrandr-dev libz-dev libpng-dev
 
 然后切换到`DeepDriving/torcs-1.3.6`目录，实际做法依你解压的目录而定。
 我的例子如下：
 > cd ~/workspace/DeepDriving/torcs-1.3.6
 
 接着我们就可以开始安装了。
-```
-./configure
-make
-sudo make install
-sudo make datainstall
-```
+> ./configure
+
+> make
+
+> sudo make install
+
+> sudo make datainstall
 
 再接着我们需要使用 root 用户权限将`DeepDriving/modified_tracks`
 目录的全部内容复制到`/usr/local/share/games/torcs/tracks/road`下即可。
@@ -80,20 +69,9 @@ sudo make datainstall
 
 首先我们得为其安装依赖。如果你和我用的一样的环境，
 那么你可以像我一样输入下面的命令，按照提示操作即可。
-```
-sudo apt-get install libprotobuf-dev
-sudo apt-get install libleveldb-dev
-sudo apt-get install libsnappy-dev
-sudo apt-get install libopencv-dev
-sudo apt-get install libhdf5-serial-dev
-sudo apt-get install protobuf-compiler
-sudo apt-get install --no-install-recommends libboost-all-dev
-sudo apt-get install libgflags-dev
-sudo apt-get install libgoogle-glog-dev
-sudo apt-get install liblmdb-dev
-sudo apt-get install libatlas-base-dev
-sudo apt-get install python-dev
-```
+> sudo apt-get install --no-install-recommends libboost-all-dev
+
+> sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler libgflags-dev libgoogle-glog-dev liblmdb-dev libatlas-base-dev python3-dev
 
 然后切换到`DeepDriving/Caffe_driving`目录，实际做法依你解压的目录而定。
 我的例子如下：
