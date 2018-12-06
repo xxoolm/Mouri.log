@@ -19,18 +19,21 @@
 > sudo apt-get install build-essential libglib2.0-dev python3-dev cmake
 
 ### 编译安装
-```
-mkdir build
-cd build
-cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 ..
-make
-sudo make install
-```
+> mkdir build
+
+> cd build
+
+> cmake -DPYTHON_EXECUTABLE=/usr/bin/python3 ..
+
+> make
+
+> sudo make install
 
 ### 在 Python3 注册 LCM 模块
-```
-PYTHON_VERSION=$(/usr/bin/python3 -c "import sys; print(\"%s.%s\" % sys.version_info[:2])")
-PYTHON_USER_SITE=$(/usr/bin/python3 -m site --user-site)
-mkdir -p $PYTHON_USER_SITE
-echo "$LCM_LIBRARY_DIR/python$PYTHON_VERSION/site-packages" > $PYTHON_USER_SITE/lcm.pth
-```
+> PYTHON_VERSION=$(/usr/bin/python3 -c "import sys; print(\"%s.%s\" % sys.version_info[:2])")
+
+> PYTHON_USER_SITE=$(/usr/bin/python3 -m site --user-site)
+
+> mkdir -p $PYTHON_USER_SITE
+
+> echo "$LCM_LIBRARY_DIR/python$PYTHON_VERSION/site-packages" > $PYTHON_USER_SITE/lcm.pth
