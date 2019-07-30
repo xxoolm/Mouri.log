@@ -18,5 +18,5 @@ Follow your own course, and let people talk.
 如未特殊说明，请遵循 [License.md](License.md) 中所描述的内容。
 
 ## 友情链接
-[Dism++ 官方网站](http://www.chuyu.me/)
-[悠溯志的技术小站](https://yszhblog.github.io/)
+- [Dism++ 官方网站](http://www.chuyu.me/)
+- [悠溯志的技术小站](https://yszhblog.github.io/)
