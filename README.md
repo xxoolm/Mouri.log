@@ -19,4 +19,4 @@ Follow your own course, and let people talk.
 
 ## 友情链接
 - [Dism++ 官方网站](http://www.chuyu.me/)
-- [悠溯志的技术小站](https://www.yszh.ml/)
+- [悠溯志的技术小站](https://yszhblog.github.io/)
