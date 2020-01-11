@@ -21,7 +21,7 @@
 - 虚拟化软件重度用户。
 
 ## 喜好
-- 崇拜的人：David Culter、姚期智
+- 崇拜的人：David Cutler、姚期智
 - 软件：
   - 操作系统内核：Windows NT
   - Windows 操作系统版本：Windows 8、Windows Vista
