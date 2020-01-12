@@ -7,7 +7,7 @@
 - GitHub：https://github.com/MouriNaruto
 - 博客：https://mourinaruto.github.io
 - 论坛 ID：Mouri_Naruto (主要混迹于远景论坛和吾爱破解论坛)
-- 正式简历：[LaTeX](About.log/formal-resume-zh-cn/resume.tex), [PDF](About.log/formal-resume-zh-cn/resume.pdf)
+- 正式简历：[LaTeX](formal-resume-zh-cn/resume.tex), [PDF](formal-resume-zh-cn/resume.pdf)
 
 ## 技能
 
