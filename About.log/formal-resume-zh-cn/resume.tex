@@ -10,6 +10,8 @@
 \usepackage{linespacing_fix} % disable extra space before next section
 \usepackage[fallback]{xeCJK}
 
+\linespread{1.11} 
+
 \begin{document}
 \renewcommand\headrulewidth{0pt}
 
@@ -17,18 +19,29 @@
 
 \basicInfo{
   \email{Mouri\_Naruto@Outlook.com} \textperiodcentered\
-  \phone{(+86) 182-6175-7560} \textperiodcentered\
+  \phone{182-6175-7560} \textperiodcentered\
   \github[MouriNaruto]{https://github.com/MouriNaruto} \textperiodcentered\
 }
 
 \section{教育经历}
 
-\datedsubsection{\textbf{常熟理工学院}, 中国}{2016.9 -- 现在}
-  专业：汽车服务工程，预计毕业日期： 2020 年 6 月
+\datedsubsection{\textbf{常熟理工学院}}{2016.09 -- 现在}
+  汽车服务工程专业，已通过 CET-6，预计 2020 年 6 月毕业
+
+\section{技能}
+\begin{itemize}
+  
+  \item \textbf{程序语言}:
+    熟悉 C/C++、C\#、Python
+  
+  \item \textbf{开发工具}:
+    平常在 Windows 下使用 Visual Studio、IDA，有使用 Windows SDK (Win32、COM、ATL、WTL、WRL、C++/CX、C++/WinRT)、.NET (.NET Framework、.NET Core、WPF、Windows Forms、ASP.NET Core)、ROS (Kinetic、Melodic)、Qt、EDK II、Project Mu 框架进行应用开发的经验，同时也有使用 Git、VSTS 等团队协作工具的经验
+
+\end{itemize}
 
 \section{工作经历}
 
-\datedsubsection{\textbf{初雨团队}, 北京, 中国}{2014.07 至今}
+\datedsubsection{\textbf{初雨团队}}{2014.07 -- 现在}
 \begin{itemize}
   \item 负责 Dism++ NCleaner 清理增强组件的开发，协助开发 Dism++ 映像热备份功能和多语言适配
   \item 创建了 \href{https://github.com/Chuyu-Team/MINT}{MINT} 项目，整合了 Windows 未文档化的用户模式 API 定义，且对 MSVC 工具链进行了优化
@@ -36,9 +49,9 @@
   \item 学到了很多 C/C++ 编程、Windows 应用程序开发和 IDA 逆向相关的知识
 \end{itemize}
 
-\datedsubsection{\textbf{常熟理工学院车联网大数据实验室 (301实验室)}, 常熟, 中国}{2018.03 至今}
+\datedsubsection{\textbf{常熟理工学院车联网大数据实验室 (301实验室)}}{2018.03 -- 现在}
 \begin{itemize}
-  \item 协助开发实验室物联网平台，增加对 S7-1200 PLC 的支持，且重构和扩充了部分实现
+  \item 协助开发实验室物联网平台，增加对西门子 S7-1200 PLC 的支持，且重构和扩充了部分实现
   \item 参与了自动驾驶避障算法的研究，并取得了一定成果
   \item 负责实验室自动驾驶测试车控制代码的第一次重构，并实现了远程驾驶的控制端支持
   \item 参与了第十六届“挑战杯”，并获取江苏省大学生课外学术科技作品竞赛二等奖
@@ -60,33 +73,19 @@
 \datedsubsection{\textbf{Nagisa}}{\url{https://github.com/Project-Nagisa/Nagisa}}
 一个基于 UWP 平台的文件传输工具，还处于早期开发阶段。
 \begin{itemize}
-  \item 支持 HTTP, HTTPS, FTP, FTPS, WebSocket and WebSocket Secure 传输协议
+  \item 提供对 HTTP、HTTPS、FTP、FTPS、WebSocket、WebSocket Secure 传输协议的支持
   \item 提供对多语言、后台下载、断点续传、单线程多任务下载的支持
-  \item 为了推进本项目的开发，顺便\href{https://github.com/microsoft/openssl/pull/61}{改善了 OpenSSL 微软分支的效能问题}和\href{https://github.com/openssl/openssl/blob/42b3f10b5e461496aab1f74d24103d6902ebfcd5/CHANGES#L350}{推进了 OpenSSL 官方分支对 UWP 平台的支持}
-\end{itemize}
-
-\section{技能}
-\begin{itemize}[parsep=0.25ex]
-
-  \item \textbf{编程语言}:
-    \textbf{编程不受特定语言限制}，
-    且尤其熟悉 C/C++/C\#/Python (排名均不分先后)
-
-  \item \textbf{开发工具}:
-    能适应任何开发环境/目标平台，平常在 Windows 下使用 Visual Studio、IDA，有使用 Windows SDK (Win32、COM、ATL、WTL、WRL、C++/CX、C++/WinRT)、.NET Framework (包括 WPF、Windows Forms)、.NET Core (包括 ASP.NET Core)、ROS (Kinetic、Melodic)、Qt、EDK II, Project Mu 框架进行应用开发的经验，同时也有使用 GitHub、GitLab、Gitee、Coding.net 等团队协作工具的经验
-
+  \item 为了推进本项目的开发，顺便改善了 OpenSSL 的\href{https://github.com/microsoft/openssl/pull/61}{微软分支的效能问题}和\href{https://github.com/openssl/openssl/blob/42b3f10b5e461496aab1f74d24103d6902ebfcd5/CHANGES#L350}{官方分支对 UWP 平台的支持}
 \end{itemize}
 
 \section{其他}
-\begin{itemize}[parsep=0.25ex]
+\begin{itemize}
 
-  \item 开源贡献: 推进和改善了 OpenSSL \href{https://github.com/openssl/openssl/pulls?q=is:pr+author:MouriNaruto+}{官方分支}和\href{https://github.com/microsoft/openssl/pulls?q=is:pr+author:MouriNaruto+}{微软分支}对 UWP 平台的支持、添加了\href{https://github.com/microsoft/winfile/pulls?q=is:pr+author:MouriNaruto+}{微软开源的旧版文件管理器 winfile} 的简体中文支持并共同确定了多语言支持目录结构、改善了 \href{https://github.com/covscript/covscript/pulls?q=is:pr+author:MouriNaruto+}{Covariant Script 编程语言}的 Windows 平台体验、创建了 \href{https://github.com/ffmpeginteropx/FFmpegInteropX/pulls?q=is:pr+author:MouriNaruto+}{FFmpegInteropX} 项目的 \href{https://github.com/ffmpeginteropx/FFmpegInteropX/tree/FFmpegUniversal}{FFmpeg 单动态链接库文件分支}
+  \item 开源贡献：推进和改善了 OpenSSL \href{https://github.com/openssl/openssl/pulls?q=is:pr+author:MouriNaruto+}{官方分支}和\href{https://github.com/microsoft/openssl/pulls?q=is:pr+author:MouriNaruto+}{微软分支}对 UWP 平台的支持、添加了\href{https://github.com/microsoft/winfile/pulls?q=is:pr+author:MouriNaruto+}{微软开源的旧版文件管理器 winfile} 的简体中文支持并共同确定了多语言支持目录结构、改善了 \href{https://github.com/covscript/covscript/pulls?q=is:pr+author:MouriNaruto+}{Covariant Script 编程语言}的 Windows 平台体验、创建了 \href{https://github.com/ffmpeginteropx/FFmpegInteropX/pulls?q=is:pr+author:MouriNaruto+}{FFmpegInteropX} 项目的 \href{https://github.com/ffmpeginteropx/FFmpegInteropX/tree/FFmpegUniversal}{FFmpeg 单动态链接库文件分支}
   
   \item 技术文章：\href{https://www.52pojie.cn/thread-512713-1-1.html}{《实现每显示器高 DPI 识别 (Per\-Monitor DPI Aware) 的注意事项》}、\href{https://www.52pojie.cn/thread-506556-1-1.html}{《开启 Win10 的文件资源管理器的每显示器 DPI 缩放 (Per\-Monitor DPI Aware) 支持》}、\href{http://bbs.pcbeta.com/viewthread-1567726-1-1.html}{《浅谈 Windows 10 Build 9879 的磁盘清理的 System Compression》}、\href{http://bbs.pcbeta.com/viewthread-1611980-1-1.html}{《浅谈 Metro App 的沙盒 AppContainer》}、\href{http://bbs.pcbeta.com/viewthread-1524688-1-1.html}{《自定义开始屏幕的大小》}、\href{http://bbs.pcbeta.com/viewthread-1535789-1-1.html}{《反汇编 Windows 系统还原代码的成果》}、\href{http://bbs.pcbeta.com/viewthread-1507617-1-1.html}{《Windows 系统还原新探 (Windows 系统还原的较深入研究)》}、\href{http://bbs.pcbeta.com/viewthread-1519551-1-1.html}{《原生集成 Windows 8/8.1 自带的 Windows Defender 病毒库的教程》}、\href{http://bbs.pcbeta.com/viewthread-1488892-1-1.html}{《使用系统自带工具把磁盘从MBR转换成 GPT 的教程》}
   
-  \item 语言: English - 通过 CET-6，汉语 - 母语水平
-  
-  \item 我很喜欢结识各种友人，与 \href{https://github.com/ice1000/}{ice1000}、\href{https://github.com/mikecovlee}{mikecovlee}等进行过技术合作
+  \item 我很喜欢结识各种友人，与 \href{https://github.com/ice1000/}{ice1000}、\href{https://github.com/mikecovlee}{mikecovlee} 等进行过技术合作
 
 \end{itemize}
 
