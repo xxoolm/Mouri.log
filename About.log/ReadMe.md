@@ -2,13 +2,12 @@
 
 ## 简介
 
-- 姓名：卢起 / 男 / 19971205 / 本科 常熟理工学院 汽车服务工程
 - 笔名：Mouri_Naruto (MN, 毛利), Naruto Mouri (毛利鸣人), Kenji Mouri (毛利研二)
-- 手机：(+86) 182-6175-7560
 - 邮箱：Mouri_Naruto@Outlook.com
 - GitHub：https://github.com/MouriNaruto
 - 博客：https://mourinaruto.github.io
 - 论坛 ID：Mouri_Naruto (主要混迹于远景论坛和吾爱破解论坛)
+- 正式简历：[LaTeX](About.log/formal-resume-zh-cn/resume.tex), [PDF](About.log/formal-resume-zh-cn/resume.pdf)
 
 ## 技能
 
@@ -43,8 +42,6 @@
 - 改善了 [Covariant Script 编程语言](https://github.com/covscript/covscript/pulls?q=is:pr+author:MouriNaruto+)的 Windows 平台体验。
 - 创建了 [FFmpegInteropX](https://github.com/ffmpeginteropx/FFmpegInteropX/pulls?q=is:pr+author:MouriNaruto+) 项目的 [FFmpeg 单动态链接库文件分支](https://github.com/ffmpeginteropx/FFmpegInteropX/tree/FFmpegUniversal)。
 - 在进行使用 Windows GDI 进行部分加速的软件 3D 渲染器的开发，[争取合并入 imgui 项目主分支](https://github.com/ocornut/imgui/pull/2724)。
-
-<div style="page-break-after: always; break-after: page;"></div>
 
 ## 工作经历
 
