@@ -4,7 +4,7 @@
 
 Follow your own course, and let people talk.
 
-- [About.log](About.log/Readme.md) 自我介绍
+- [About.log](About.log/ReadMe.md) 自我介绍
 
 ## 提示
 这是 Mouri_Naruto 的博客。欢迎通过在 GitHub 开 issue 的方式提建议和吐槽。
