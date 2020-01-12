@@ -62,7 +62,7 @@
   - Sledgehammer (原 WUMT Wrapper Script)
     - https://forums.mydigitallife.net/threads/72203/
   - "乱世"木马家族
-    - 360 分析报告：http://www.360.cn/n/10477.html)
+    - 360 分析报告：http://www.360.cn/n/10477.html
 
 #### Nagisa
 
@@ -89,21 +89,21 @@
 
 ### 技术文章
 
-- 实现每显示器高DPI识别(Per-Monitor DPI Aware)的注意事项
-  - https://www.52pojie.cn/thread-512713-1-1.html
-- 开启Win10的文件资源管理器的每显示器DPI缩放 (Per-Monitor DPI Aware) 支持
+- 《实现每显示器高DPI识别(Per-Monitor DPI Aware)的注意事项》
+  - https://www.52pojie.cn/thread-512713-1-1.html》
+- 《开启Win10的文件资源管理器的每显示器DPI缩放 (Per-Monitor DPI Aware) 支持》
   - https://www.52pojie.cn/thread-506556-1-1.html
-- 浅谈Windows 10 Build 9879的磁盘清理的System Compression
+- 《浅谈Windows 10 Build 9879的磁盘清理的System Compression》
   - http://bbs.pcbeta.com/viewthread-1567726-1-1.html
-- 浅谈Metro App的沙盒AppContainer
+- 《浅谈Metro App的沙盒AppContainer》
   - http://bbs.pcbeta.com/viewthread-1611980-1-1.html
-- 自定义开始屏幕的大小
+- 《自定义开始屏幕的大小》
   - http://bbs.pcbeta.com/viewthread-1524688-1-1.html
-- 反汇编Windows系统还原代码的成果
+- 《反汇编Windows系统还原代码的成果》
   - http://bbs.pcbeta.com/viewthread-1535789-1-1.html
-- Windows系统还原新探 (Windows系统还原的较深入研究) 
+- 《Windows系统还原新探 (Windows系统还原的较深入研究) 》
   - http://bbs.pcbeta.com/viewthread-1507617-1-1.html
-- 原生集成Windows 8/8.1 自带的Windows Defender病毒库的教程
+- 《原生集成Windows 8/8.1 自带的Windows Defender病毒库的教程》
   - http://bbs.pcbeta.com/viewthread-1519551-1-1.html
-- 使用系统自带工具把磁盘从MBR转换成GPT的教程
+- 《使用系统自带工具把磁盘从MBR转换成GPT的教程》
   - http://bbs.pcbeta.com/viewthread-1488892-1-1.html
