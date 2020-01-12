@@ -4,6 +4,7 @@
 
 - 姓名：卢起 / 男 / 19971205
 - 笔名：Mouri_Naruto (MN, 毛利), Naruto Mouri (毛利鸣人), Kenji Mouri (毛利研二)
+- 手机：(+86) 182-6175-7560
 - 邮箱：Mouri_Naruto@Outlook.com
 - 博客：https://mourinaruto.github.io
 - GitHub：https://github.com/MouriNaruto
