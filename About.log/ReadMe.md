@@ -72,3 +72,7 @@
 - [Windows系统还原新探 (Windows系统还原的较深入研究)](http://bbs.pcbeta.com/viewthread-1507617-1-1.html)
 - [原生集成Windows 8/8.1 自带的Windows Defender病毒库的教程](http://bbs.pcbeta.com/viewthread-1519551-1-1.html)
 - [使用系统自带工具把磁盘从MBR转换成GPT的教程](http://bbs.pcbeta.com/viewthread-1488892-1-1.html)
+
+## 注释
+
+Naruto Mouri is a pseudonym for technical talking purpose, created at July 12th, 2012. Kenji Mouri is a formal pseudonym created at October 13th, 2017.
