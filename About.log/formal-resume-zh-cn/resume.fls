@@ -1,4 +1,4 @@
-PWD /media/mouri/Workspace/GitHub/MouriNaruto/Mouri.log/About.log/formal-resume-zh-cn
+PWD /home/mouri/git-repos/Mouri.log/About.log/formal-resume-zh-cn
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -129,6 +129,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xunicode-extra.def
 INPUT /usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xunicode-extra.def
 INPUT /usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+INPUT resume.aux
+INPUT resume.aux
 OUTPUT resume.aux
 INPUT /usr/share/texmf/tex/latex/tipa/t3cmr.fd
 INPUT /usr/share/texmf/tex/latex/tipa/t3cmr.fd
@@ -136,6 +138,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT resume.out
+INPUT resume.out
+INPUT resume.out
+INPUT resume.out
 OUTPUT resume.out
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
