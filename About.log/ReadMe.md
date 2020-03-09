@@ -2,7 +2,10 @@
 
 ## 简介
 
-- 笔名：Mouri_Naruto (MN, 毛利), Naruto Mouri (毛利鸣人), Kenji Mouri (毛利研二)
+- 笔名
+  - Mouri_Naruto (MN, 毛利)
+  - Naruto Mouri (毛利鸣人)
+  - Kenji Mouri (毛利研二)
 - 邮箱：Mouri_Naruto@Outlook.com
 - GitHub：https://github.com/MouriNaruto
 - 博客：https://mourinaruto.github.io
